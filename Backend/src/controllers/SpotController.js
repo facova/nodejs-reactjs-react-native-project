@@ -28,7 +28,7 @@ module.exports = {
             company,
             techs: techs.split(',').map(tech => tech.trim()),
             price            
-        });
+        })
 
         return res.json(spot)
     }
